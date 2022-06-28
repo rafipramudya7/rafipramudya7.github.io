@@ -1,0 +1,50 @@
+.jumbotron {
+    background-color: #a2d9ff;
+    height: 500px;
+    /* padding-top: 140px; */
+}
+
+.jumbotron img {
+    background-color: aliceblue;
+}
+
+.absolut img {
+    margin-top: 100px;
+}
+
+hr {
+    width: 100px;
+    text-align: center;
+    margin: 10px auto;
+}
+
+.about {
+    padding-bottom: 200px;
+}
+
+.project {
+    background-color: #a2d9ff;
+}
+
+.card {
+    padding-top: 8px;
+}
+
+.r2 {
+    margin-top: 10px;
+}
+
+.contact {
+    padding-bottom: 80px;
+}
+
+.footer {
+    padding: 10px 0px 50px;
+    background-color: #a2d9ff;
+}
+
+.footer p {
+    font-family: 'Roboto', sans-serif;
+    font-size: 32px;
+    font-weight: 260;
+}
