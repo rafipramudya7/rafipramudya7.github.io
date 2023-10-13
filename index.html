@@ -1,0 +1,370 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+   
+    <title>Parallax Scrolling Website | Codehal</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+    
+
+    
+    <link rel="stylesheet" href="cssnav/navcss/navcss.css"> 
+    <link rel="stylesheet" href="style/style.css">
+    <link rel="stylesheet" href="style/botom.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto+Condensed&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="style/timer.css" />
+    <link rel="stylesheet" href="cssflip/flipdown.css" />
+    <script src="js/flipdown.js"></script>
+    <link rel="stylesheet" href="style/https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="style/card.css">
+
+</head>
+
+<body>
+
+  
+         < <header class="header" style="z-index:999999;" id="navbar">
+            <a href="#" class="header__logo">Armaso</a>
+
+            <ion-icon name="menu-outline" class="header__toggle" id="nav-toggle"></ion-icon>
+
+            <nav class="nav" id="nav-menu">
+                <div class="nav__content bd-grid">
+
+                    <ion-icon name="close-outline" class="nav__close" id="nav-close"></ion-icon>
+    
+                    <div class="nav__perfil">
+                        <div class="nav__img" b>
+                            <img src="LetterA logo-01ss" alt="">
+                        </div>
+                        
+                        <div>
+                            <a href="#" class="nav__name">Armaso</a>
+                            <span class="nav__profesion">Web designer</span>
+                        </div>
+                    </div>
+    
+                    <div class="nav__menu">
+                        <ul class="nav__list">b
+                            <li class="nav__item"><a href="#" class="nav__link nav__link1 active" >Tentang kami</a></li>
+                            <li class="nav__item"><a href="#" class="nav__link nav__link2">Time line</a></li>
+                            <li class="nav__item"><a href="#" class="nav__link nav__link3">Bidang</a></li>
+                             <li class="nav__item"><a href="#" class="nav__link">Portfolio</a></li>
+                            <li class="nav__item"><a href="#" class="nav__link">Contact</a></li> 
+                        </ul>
+                    </div>
+    
+                    <div class="nav__social">
+                        <a href="#" class="nav__social-icon"><ion-icon name="logo-linkedin"></ion-icon></a>
+                        <a href="#" class="nav__social-icon"><ion-icon name="logo-github"></ion-icon></a>
+                        <a href="#" class="nav__social-icon"><ion-icon name="logo-behance"></ion-icon></a>
+                    </div>
+                </div>
+            </nav>
+        </header>
+    <div class="Paralax">
+   
+        <img src="gambar/paralax/hill1.png" id="hill1">
+        <img src="gambar/paralax/hill2.png" id="hill2">
+        <img src="gambar/paralax/hill3.png" id="hill3">
+        <img src="gambar/paralax/hill4.png" id="hill4">
+        <img src="gambar/paralax/hill5.png" id="hill5">
+        <img src="gambar/paralax/tree.png" id="tree">
+        <h2 id="text">Paralax</h2>
+        <img src="gambar/paralax/leaf.png" id="leaf">
+        <img src="gambar/paralax/plant.png" id="plant">
+
+    
+    </div>
+    <section class="slide" id="target">
+        <h2 style="font-size: clamp(30px,3vw,40px);" >Paaralax scroling text</h2>
+        <p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolore eum, accusamus quam molestiae voluptate pariatur et hic velit similique voluptatum libero quibusdam id quis quos ea ad aut est officiis.
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Facere repellat nostrum eaque modi fugit distinctio facilis dolorem numquam voluptate? Blanditiis, quisquam quia. Excepturi rem placeat unde consequatur, vero modi! Cumque?
+
+        </p>
+        <div class="tombol">
+            <a style="margin-right: 10px;">Syarat ketentuan</a>
+            <a href="">Tata cara pendaftaran</a>
+        </div>
+    </section>
+    <div class="slider">
+        <div class="logos-slide">
+            <img src="gambar/gambarrun/1.png" alt="">
+    
+            <img src="gambar/gambarrun/2.png" alt="" srcset="">
+    
+            <img src="gambar/gambarrun/3.png" alt="">
+    
+            <img src="gambar/gambarrun/4.png" alt="">
+    
+            <img src="gambar/gambarrun/5.png" alt="">
+            <img src="gambar/gambarrun/6.png" alt="">
+        </div>
+        <div class="logos-slide">
+            <img src="gambar/gambarrun/1.png" alt="">
+    
+            <img src="gambar/gambarrun/2.png" alt="" srcset="">
+    
+            <img src="gambar/gambarrun/3.png" alt="">
+    
+            <img src="gambar/gambarrun/4.png" alt="">
+    
+            <img src="gambar/gambarrun/5.png" alt="">
+    
+            <img src="gambar/gambarrun/6.png" alt="">
+        </div>     
+        <div class="wrap">
+        
+        </div>
+    </div> 
+    <!--    flip down dll--------------------------------------------------------------------- -->
+    <div id="timeline"></div>
+     <h1>Our Process</h1>
+    <br />
+    <div class="process-wrapper">
+      <div id="progress-bar-container">
+        <ul>
+          <li class="step step01 active"><div class="step-inner">PENDAFTARAN</div></li>
+          <li class="step step02"><div class="step-inner">REGISTRASI ULANG</div></li>
+          <li class="step step03"><div class="step-inner">PENYISIHAN</div></li>
+          <li class="step step04"><div class="step-inner">SEMI FINAL & FINAL</div></li>
+        </ul>
+
+        <div id="line">
+          <div id="line-progress"></div>
+        </div>
+      </div>
+
+      <div id="progress-content-section">
+        <div class="section-content discovery active">
+          <h2>HOME SECTION</h2>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec neque justo, consequat non fermentum ac, tempor eu turpis. Proin nulla eros, placerat non ipsum ut, dapibus ullamcorper ex. Nulla in dapibus lorem. Suspendisse vitae
+            velit ac ante consequat placerat ut sed eros. Nullam porttitor mattis mi, id fringilla ex consequat eu. Praesent pulvinar tincidunt leo et condimentum. Maecenas volutpat turpis at felis egestas malesuada. Phasellus sem odio,
+            venenatis at ex a, lacinia suscipit orci.
+          </p>
+        </div>
+
+        <div class="section-content strategy">
+          <h2>GALLERY SECTION</h2>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec neque justo, consequat non fermentum ac, tempor eu turpis. Proin nulla eros, placerat non ipsum ut, dapibus ullamcorper ex. Nulla in dapibus lorem. Suspendisse vitae
+            velit ac ante consequat placerat ut sed eros. Nullam porttitor mattis mi, id fringilla ex consequat eu. Praesent pulvinar tincidunt leo et condimentum. Maecenas volutpat turpis at felis egestas malesuada. Phasellus sem odio,
+            venenatis at ex a, lacinia suscipit orci.
+          </p>
+        </div>
+
+        <div class="section-content creative">
+          <h2>Creative CREATIONS</h2>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec neque justo, consequat non fermentum ac, tempor eu turpis. Proin nulla eros, placerat non ipsum ut, dapibus ullamcorper ex. Nulla in dapibus lorem. Suspendisse vitae
+            velit ac ante consequat placerat ut sed eros. Nullam porttitor mattis mi, id fringilla ex consequat eu. Praesent pulvinar tincidunt leo et condimentum. Maecenas volutpat turpis at felis egestas malesuada. Phasellus sem odio,
+            venenatis at ex a, lacinia suscipit orci.
+          </p>
+        </div>
+
+        <div class="section-content production">
+          <h2>TESTIMONIALS NOW</h2>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec neque justo, consequat non fermentum ac, tempor eu turpis. Proin nulla eros, placerat non ipsum ut, dapibus ullamcorper ex. Nulla in dapibus lorem. Suspendisse vitae
+            velit ac ante consequat placerat ut sed eros. Nullam porttitor mattis mi, id fringilla ex consequat eu. Praesent pulvinar tincidunt leo et condimentum. Maecenas volutpat turpis at felis egestas malesuada. Phasellus sem odio,
+            venenatis at ex a, lacinia suscipit orci.
+          </p>
+        </div>
+      </div>
+    </div>
+    <div class="timer">
+        <h1>Flipdown Timer</h1>
+    </div>
+    <div class="wrapingg">
+      <div id="flipdown" class="flipdown"></div>
+
+    </div>
+    <!-- flip down dlll -->
+  
+    <div class="main-card" id="bidang">
+        <a href="laman1.html" class="card" >
+
+            <h2>Card Title</h2>
+            <img src="gambar/card/NPC Mascot.svg" alt="" style="width: 80%;">
+        </a>
+        <div class="card pertama">
+            <h2>Card Title</h2>
+            <img src="gambar/card/NLC Mascot2.svg" alt="" >
+        </div>
+        <div class="card" >
+            <h2>Card Title</h2>
+            <img src="gambar/card/BST Mascot.svg" alt="" style="bottom: -5%;">
+        </div>
+    </div>
+    <div style="text-align: center;" class="tulisan">
+      <p>Main Sponsor</p>
+    </div>
+    <div class="sponsor">
+      
+      <img src="gambar/spon.jpg" alt="">
+
+       <img src="gambar/spon.jpg" alt="">
+          <img src="gambar/spon.jpg" alt="">
+                <img src="gambar/spon.jpg" alt="">
+          <img src="gambar/spon.jpg" alt="">
+
+
+
+    </div>
+
+        <section id="footer">
+            <div class="main__footer">
+              <div class="logo__footer">
+                <h1>Logo</h1>
+                <div class="contact__footer">
+                  <h1>Contact Us</h1>
+                  <li>
+                    <div class="fa fa-phone"></div><a href="tel:+391234567890">+391234567890</a></li>
+                  <li>
+                    <div class="fa fa-envelope"></div><a href="mailto:yourmail@gmail.com">yourmail@gmail.com</a></li>
+                  </li>
+              </div>
+            </div>
+            <div class="footer__menu">
+              <h1>About</h1>
+              <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Projects</a></li>
+                <li><a href="#">Contact</a></li>
+              </ul>
+            </div>
+            <div class="footer__social">
+              <h1>Social Media</h1>
+              <div class="footer-social">
+                <div class="footer__social-box">
+                  <a href="#" class="fa fa-instagram"></a>
+                  <a href="#" class="fa fa-linkedin"></a>
+                  <a href="#" class="fa fa-facebook"></a>
+                  <a href="#" class="fa fa-youtube-play"></a>
+                </div>
+              </div>
+            </div>
+            </div>
+              <footer>
+              <p>Created By <span><a href="http://www.andreaborelli.it/" target="_blank">Rafi Ardiansyah</a></span> | &copy; 2022 All rights reserved.</p>
+            </footer>
+          
+          </section>
+  
+
+
+    
+
+
+    <script src="js/script.js"></script>
+        <script>
+      console.log(Date.now());
+      document.addEventListener("DOMContentLoaded", () => {
+        let timer_ = 1699001000; //unix timestamp
+        let flipdown = new FlipDown(timer_).start();
+        //.ifEnded(() => {
+        //   document.querySelector(".flipdown").innerHTML = `<h2>Timer is ended</h2>`;
+        // });
+      });
+    </script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
+    <script>
+      $(".step").click(function () {
+        $(this).addClass("active").prevAll().addClass("active");
+        $(this).nextAll().removeClass("active");
+      });
+
+      $(".step01").click(function () {
+        $("#line-progress").css("width", "3%");
+        $(".discovery").addClass("active").siblings().removeClass("active");
+      });
+
+      $(".step02").click(function () {
+        $("#line-progress").css("width", "33%");
+        $(".strategy").addClass("active").siblings().removeClass("active");
+      });
+
+      $(".step03").click(function () {
+        $("#line-progress").css("width", "66%");
+        $(".creative").addClass("active").siblings().removeClass("active");
+      });
+
+      $(".step04").click(function () {
+        $("#line-progress").css("width", "100%");
+        $(".production").addClass("active").siblings().removeClass("active");
+      });
+    </script>
+          <!-- ===== IONICONS ===== -->
+        <script src="https://unpkg.com/ionicons@5.1.2/dist/ionicons.js"></script>
+
+        <!--===== MAIN JS =====-->
+        <script src="cssnav/js/main.js"></script>
+  <script>
+  let prevScrollpos = window.pageYOffset;
+
+  window.onscroll = function() {
+    let currentScrollPos = window.pageYOffset;
+    let navbar = document.getElementById("navbar");
+
+    if (prevScrollpos > currentScrollPos) {
+      navbar.style.top = "0";
+    } else {
+      navbar.style.top = "-60px"; // Adjust this value based on your navbar height
+    }
+
+    prevScrollpos = currentScrollPos;
+  }
+</script>
+<script>
+  document.querySelector('.nav__link1').addEventListener('click', function(event) {
+    event.preventDefault();
+    scrollToTarget("target");
+  });
+    document.querySelector('.nav__link2').addEventListener('click', function(event) {
+    event.preventDefault();
+    scrollToTarget("timeline");
+  });
+    document.querySelector('.nav__link3').addEventListener('click', function(event) {
+    event.preventDefault();
+    scrollToTarget("bidang");
+  });
+
+  function scrollToTarget(par) {
+    const targetElement = document.getElementById(par);
+    targetElement.scrollIntoView({ behavior: "smooth" });
+  }
+</script>
+<script>
+let text = document.getElementById('text');
+let leaf = document.getElementById('leaf');
+let hill1 = document.getElementById('hill1');
+let hill4 = document.getElementById('hill4');
+let hill5 = document.getElementById('hill5');
+
+window.addEventListener('scroll', () => {
+
+    let value = window.scrollY;
+
+    text.style.marginTop = value * 2.5 + 'px';
+    leaf.style.marginLeft = value * 2.5 + 'px';
+    hill1.style.marginTop = value * 1 + 'px';
+    hill4.style.marginTop = value * 0.3 + 'px';
+    hill2.style.marginLeft = value * -1.5 + 'px';
+    // hill3.style.marginLeft = value * 1.5 + 'px';
+    hill5.style.marginTop = value * 1.5 + 'px';
+
+
+
+})
+</script>
+</body>
+
+</html>
