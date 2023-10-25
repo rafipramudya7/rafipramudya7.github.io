@@ -11,6 +11,7 @@ body{
     background: #f9f9f9;
     min-height: 100vh;
     /* overflow: hidden; */
+  
 }
 header{
     position: absolute; 
@@ -56,18 +57,16 @@ header{
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 120vh;
-    /* box-sizing: border-box; */
-
-
-    
+    height: 100vh;
 }
 /* .Paralax::after */
 .Paralax img{
+
     position: absolute;
+    /* top:9vh ; */
     top: 0;
     left: 0;
-    width: 100%;
+    /* width: 100%; */
     pointer-events: none;
 
 }
@@ -100,12 +99,12 @@ header{
 
  
 .slide{ 
-    color: #fff;
+    color: #b8b8b7;
     padding-top: 100px;
     padding-bottom: 10px;
     font-size: 1em;
     position: relative;    
-    background: #003329;
+    background: #4d535f;
     justify-content: center;
     text-align: center;
     display: flex;
@@ -113,7 +112,7 @@ header{
 
 }
 .wrap{
-    background-color: rgba(1, 37, 30,0.5);
+    background-color: rgb(0 0 0 / 58%);;
     position: absolute;
     top: 0;
     left: 0;
@@ -130,7 +129,7 @@ header{
 }
 .logos-slide{
     display: inline-block;
-    animation: 10s slide infinite linear;
+    animation: 25s slide infinite linear;
 
 }
 .logos-slide img{
@@ -148,79 +147,6 @@ header{
     
 }
 /* ---------------------card effect---------------- */
-*{
-    margin: 0;
-    transition: all ease-in 0.8s;
-    font-family: "Poppins", sans-serif;
-
-
-
-}
-.main-container{
-    /* margin-top: 200px; */
-    display: flex;
-    width: 100%;
-    background-color:#013a2e;
-    justify-content: space-evenly;
-    flex-wrap: wrap;
-    
-    
-}
-.containers{
-    width:20%;
-    overflow: hidden;
-    background-color:rgba(33, 33, 33, 0.993);
-    height: 300px;
-    /* box-shadow: rgb(0, 0, 0,0) 3px 3px 6px 0px inset,rgb(0, 0, 0,0) -3px -3px 6px 1px inset,; */
-    /* margin:; */
-    border-radius:10px ;
-    cursor: pointer;
-}
-.content{
-    width: 100%;
-    height: 100%;
-    transform: translateY(70%);
-    transition: 0.7s ease-in-out;
-}
-.content h3{
-    color: white;
-    margin-left: 30px;
-    text-shadow: 1px 1px 1px black;
-    padding-top: 50px;
-}
-.content button{
-    margin-left: auto;
-}
-.content p{
-    text-align: justify;
-    width: 75%;
-    color: aliceblue;
-margin-left: 10%;
-    margin-top: 25px; 
-    font-size: 13px;
-}
-.containers:hover>.content{
-    transition:0.5s ease-in;
-    transform: translateY(0%);
-    background: linear-gradient(rgba(0,0,0,7),rgba(0,0,0,6));
-}
-@media (max-width: 900px) {
-    .main-container{
-        flex-wrap: wrap;
-        /* width: 250px; */
-        
-        
-
-
-    }
-    .containers{
-        margin-bottom: 20px;
-        width: 80%;
-
-
-
-    }
-}
 
 /* ----------------------------footer----------------------- */
 @import url('https://fonts.googleapis.footer__menu/css2?family=Montserrat:wght@400;500;600;700&display=swap');
@@ -288,6 +214,8 @@ footer a:hover {
 }
 
 .contact__footer li {
+  display: flex;
+  justify-content: center;
   list-style: none;
   margin: 10px 0;
 }
@@ -307,7 +235,10 @@ footer a:hover {
 .footer-social{
   padding:20px 0;
 }
-
+.footer__social-box{
+  display: flex;
+  justify-content: center;
+}
 .footer-social .footer__social-box a{
   padding:0 10px;
   text-decoration:none;
@@ -317,6 +248,8 @@ footer a:hover {
 
 .footer__menu ul li{
   padding:5px 0;
+  display: flex;
+  justify-content: center;
 }
 
 /* -------------------------------------------------------------------------------- */
@@ -324,6 +257,7 @@ footer a:hover {
 /* -------------------------------------------------------------------------------- */
 
 @media (max-width: 767px) {
+
   .main__footer {
     padding:20px;
     display:grid;
@@ -358,7 +292,7 @@ footer a:hover {
   justify-content: space-around;
   display: flex;
   height: 400px;
-  background-color: #FBD85D;
+  background-color: #99F3ED;
   padding: 10px;
 
 }
@@ -374,7 +308,7 @@ footer a:hover {
 
 }
 .tulisan{
-  background-color: #F1C93B;
+  background-color: #18CBBF;
   font-size: 40px;
 }
 @media (max-width: 900px) {
@@ -401,44 +335,3 @@ footer a:hover {
 
 }
 
-/* .navbar {
-    display: flex;
-    justify-content: center;
-    background-color: #333;
-    padding: 15px 0;
-}
-
-.nav-item {
-    text-decoration: none;
-    color: #fff;
-    font-weight: bold;
-    margin: 0 15px;
-    position: relative;
-    transition: color 0.3s ease-in-out;
-}
-
-.nav-item:before {
-    content: '';
-    position: absolute;
-    bottom: -5px;
-    left: 0;
-    width: 100%;
-    height: 3px;
-    background-color: transparent;
-    transition: background-color 0.3s ease-in-out, transform 0.3s ease-in-out;
-    transform: scaleX(0);
-    transform-origin: left;
-}
-
-.nav-item:hover {
-    color: #fff;
-}
-
-.nav-item:hover:before {
-    background-color: #fff;
-    transform: scaleX(1);
-}
-
-.nav-item:last-child {
-    margin-right: 0;
-} */

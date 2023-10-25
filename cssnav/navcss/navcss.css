@@ -177,7 +177,23 @@ a {
 }
 
 .nav__social {
-  padding-top: .5rem;
+    grid-template-columns: repeat(2, max-content);
+    display: grid;
+    padding-left: 0.1rem;
+
+    column-gap: 1rem;
+}
+.daftar{
+  border: 3px solid transparent;
+    padding-right: 0.1rem;
+    text-decoration: none;
+    color: #0f7f78;
+}
+.daftar:hover
+{
+    border: 3px solid #68EDE4;
+    background: #359381; 
+    color: #68EDE4;
 }
 
 .nav__social-icon {
@@ -216,10 +232,11 @@ a {
   .nav {
     width: 100%;
   }
+
   .nav__content {
-    -ms-grid-columns: (max-content)[3];
-        grid-template-columns: repeat(3, -webkit-max-content);
-        grid-template-columns: repeat(3, max-content);
+    -ms-grid-columns: (max-content)[4];
+        grid-template-columns: repeat(4, -webkit-max-content);
+        grid-template-columns: repeat(4, max-content);
     -ms-grid-rows: 1fr;
         grid-template-rows: 1fr;
     -webkit-column-gap: 1rem;

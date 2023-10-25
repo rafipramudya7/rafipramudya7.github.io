@@ -1,0 +1,99 @@
+#tulisan{
+   margin-left: auto;
+   /* margin-right: auto; */
+}
+.paralax{
+   position: relative;
+}
+.paralax img{
+   position: absolute;
+}
+@media (max-width: 1170px) {
+
+   #kanan-5,#kanan-4,#kiri-4,#bawah{
+    display: none;
+   }
+   #tulisan{
+       height: unset !important;
+      width: 50vw; 
+            top: 20%;
+
+   }
+   #maskot{
+      top: 60% !important;
+      
+   }
+  }
+@media (max-width: 1000px) {
+    #kiri-3,#kanan-3,#atas{
+    display: none;
+   }
+   #awank{
+      display: block !important;
+      top: unset;
+   }
+
+  }
+@media (max-width: 910px) {
+
+   #kiri-1,#kanan-1,#kiri-2,#kanan-2{
+      height: unset !important;
+   }
+   #kiri-1{
+    width: 20vw;
+   }
+   #kanan-1{
+      width: 22vw;
+   }
+   #kiri-2,#kanan-2{
+      width: 60vw;
+   }
+
+
+ 
+} 
+   @media (max-width: 910px) {
+     #tulisan{
+      top: 15%;
+         width: 70vw; 
+
+   }
+  }
+     @media (max-width: 60px) {
+     #tulisan{
+      top: 15%;
+         width: 70vw !important; 
+
+   }
+  }
+  #maskot{
+   animation: naikTurun 2s linear infinite;
+   /* transition: a; */
+  }
+    @keyframes naikTurun {
+  0% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-20px); /* Atur seberapa jauh naik */
+  }
+  100% {transform: translateY(0);}
+    }
+
+
+  /*
+    @media (max-width: 600px) {
+     #maskot{
+      left: 35%  !important;
+   }
+  }
+      @media (max-width: 438px) {
+     #maskot{
+      left: 30%  !important;
+   }
+  }
+        @media (max-width: 280px) {
+     #maskot{
+      left: 25%  !important;
+   }
+  } */
