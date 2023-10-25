@@ -8,25 +8,26 @@
     <title>Parallax Scrolling Website | Codehal</title>
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
-    
+    <link href="https://fonts.googleapis.com/css?family=Roboto+Condensed&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-    
     <link rel="stylesheet" href="cssnav/navcss/navcss.css"> 
     <link rel="stylesheet" href="style/style.css">
     <link rel="stylesheet" href="style/botom.css">
-    <link href="https://fonts.googleapis.com/css?family=Roboto+Condensed&display=swap" rel="stylesheet" />
     <link rel="stylesheet" href="style/timer.css" />
     <link rel="stylesheet" href="cssflip/flipdown.css" />
-    <script src="js/flipdown.js"></script>
-    <link rel="stylesheet" href="style/https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="style/card.css">
+    <link rel="stylesheet" href="style/parralax.css">
+    <script src="flipjs/flipdown.js"></script>
+
 
 </head>
 
 <body>
 
   
-         < <header class="header" style="z-index:999999;" id="navbar">
+         <header class="header" style="z-index:999999;" id="navbar">
             <a href="#" class="header__logo">Armaso</a>
 
             <ion-icon name="menu-outline" class="header__toggle" id="nav-toggle"></ion-icon>
@@ -43,103 +44,138 @@
                         
                         <div>
                             <a href="#" class="nav__name">Armaso</a>
-                            <span class="nav__profesion">Web designer</span>
+                            <!-- <span class="nav__profesion">Web designer</span> -->
+                            <!-- <a href="" class="daftar"> Daftar</a> -->
+
                         </div>
                     </div>
+                    
     
                     <div class="nav__menu">
-                        <ul class="nav__list">b
+                        <ul class="nav__list">
+
                             <li class="nav__item"><a href="#" class="nav__link nav__link1 active" >Tentang kami</a></li>
                             <li class="nav__item"><a href="#" class="nav__link nav__link2">Time line</a></li>
                             <li class="nav__item"><a href="#" class="nav__link nav__link3">Bidang</a></li>
-                             <li class="nav__item"><a href="#" class="nav__link">Portfolio</a></li>
-                            <li class="nav__item"><a href="#" class="nav__link">Contact</a></li> 
                         </ul>
                     </div>
     
                     <div class="nav__social">
-                        <a href="#" class="nav__social-icon"><ion-icon name="logo-linkedin"></ion-icon></a>
-                        <a href="#" class="nav__social-icon"><ion-icon name="logo-github"></ion-icon></a>
-                        <a href="#" class="nav__social-icon"><ion-icon name="logo-behance"></ion-icon></a>
+                      <a href="login.html">
+                        <button class="button-33" role="button">Login</button>
+
+                      </a>
+                        <a href="daftar.html">
+                        <button href="daftar.html" class="button-33" role="button">Daftar</button>
+
+                      </a>
+
+                      <!-- <a href="daftar.html" class="daftar">daftar</a> -->
                     </div>
+                    <a href="https://maps.app.goo.gl/VdeRGWmbZPNsM6ax5">
+                        <button class="button-33" role="button" style="padding: 7px 70px;"><svg xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 384 512"><!--! Font Awesome Free 6.4.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. --><path d="M215.7 499.2C267 435 384 279.4 384 192C384 86 298 0 192 0S0 86 0 192c0 87.4 117 243 168.3 307.2c12.3 15.3 35.1 15.3 47.4 0zM192 128a64 64 0 1 1 0 128 64 64 0 1 1 0-128z"/></svg><p style="margin-left: 5px;">Lokasi Kami</p></button>
+
+                    </a>
+
+                  <!-- <a href="" class="">posisi kita</a> -->
+<!-- <button class="button-50" role="button">Button 50</button> -->
+
+
+
                 </div>
             </nav>
         </header>
-    <div class="Paralax">
-   
-        <img src="gambar/paralax/hill1.png" id="hill1">
-        <img src="gambar/paralax/hill2.png" id="hill2">
-        <img src="gambar/paralax/hill3.png" id="hill3">
-        <img src="gambar/paralax/hill4.png" id="hill4">
-        <img src="gambar/paralax/hill5.png" id="hill5">
-        <img src="gambar/paralax/tree.png" id="tree">
-        <h2 id="text">Paralax</h2>
-        <img src="gambar/paralax/leaf.png" id="leaf">
-        <img src="gambar/paralax/plant.png" id="plant">
+    <div class="Paralax" style="background-color: grey;">
+      <img src="parralx/Assets Paralax-02.svg" id="kiri-1" style="   height:20vh; z-index:30;" alt="">
+      <img src="parralx/Assets Paralax-03.svg" id="kiri-2" style=" height:80vh; z-index:29; left: 0px;">     
+      <img src="parralx/Assets Paralax-04.svg" id="kiri-3" style=" height:100vh; z-index:28; left:0px !important;  top: 0;">
+       <img src="parralx/Assets Paralax-05.svg" id="kiri-4" style=" height:100vh; z-index:25; left:0px !important;   top: 0;">
 
-    
+      <img src="parralx/Assets Paralax-08.svg" id="kanan-1" style=" height:28vh; z-index:30; right:0 !important; top: 0; left: unset;">
+      <img src="parralx/Assets Paralax-09.svg" id="kanan-2" style=" height:80vh; z-index:29; right:0 !important; top: 0; left: unset;">
+      <img src="parralx/Assets Paralax-10.svg" id="kanan-3" style=" height: 100vh; z-index:28; right:0 !important; top: 0; left: unset;">
+      <img src="parralx/Assets Paralax-11.svg" id="kanan-4" style=" height: 100vh; z-index:25; right:0 !important; top: 0; left: unset;">
+      <img src="gambar/asset/Assets-01.svg" id="kanan-5" style=" height:100vh; z-index:20; right:12% !important; top: 0; left: unset; ">
+
+            
+      <img src="gambar/asset/Assets-24.svg" id="awank" style=" z-index: 20; bottom: 0; right: 0; display: none; height: 30vh; left: unset; ">
+      <img src="gambar/asset/undefined.svg" id="awank" style=" z-index: 20; bottom: 0; left: 0; display: none; height: 30vh; ">
+
+
+      <img src="parralx/Assets Paralax-07.svg " id="tulisan" style=" height:80vh; z-index:49; left: auto;">
+      <img src="gambar/asset/Assets-14.svg" id="atas" style=" width:90vh; top: 8vh; z-index:20; right:auto !important;  left:auto;">
+      <img src="gambar/asset/Assets-15.svg" id="bawah" style=" width:70vw; z-index:20; right:auto !important;  bottom: -30px; top: unset; left:auto;">
+      <img src="gambar/asset/Mascot-01.svg" id="maskot" style=" height:40vh; z-index:19;  left:auto !important;  top: 50%; ">
     </div>
-    <section class="slide" id="target">
-        <h2 style="font-size: clamp(30px,3vw,40px);" >Paaralax scroling text</h2>
-        <p>
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolore eum, accusamus quam molestiae voluptate pariatur et hic velit similique voluptatum libero quibusdam id quis quos ea ad aut est officiis.
-            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Facere repellat nostrum eaque modi fugit distinctio facilis dolorem numquam voluptate? Blanditiis, quisquam quia. Excepturi rem placeat unde consequatur, vero modi! Cumque?
 
+    <!-- slider -->
+    <section class="slide" id="target">
+        <h2 style="font-size: clamp(30px,3vw,40px); color: #f7f7f7;" data-aos="fade-up">Do you know Armaso?</h2>
+        <p data-aos="fade-up"data-aos-offset="130">
+ 
+Kegiatan ARMASO (Ar-Rahmat Mathematic, Science, and Social Olympiad) 
+ini merupakan olimpiade tingkat SD Sederajat yang diadakan oleh Pondok 
+Pesantren Modern Ar Rahmat Bojonegoro. Melalui ARMASO 2023 diharapkan para siswa 
+sebagai generasi muda penerus bangsa dapat memiliki kompetensi dan kecerdasan dalam 
+memahami isu-isu yang berkaitan dengan Matematika Sains dan Sosial
         </p>
         <div class="tombol">
-            <a style="margin-right: 10px;">Syarat ketentuan</a>
-            <a href="">Tata cara pendaftaran</a>
+            <a class="daftar" style="margin-right: 10px;" data-aos="fade-right">Syarat ketentuan</a>
+            <a  class="daftar" href="" data-aos="fade-left" >Tata cara pendaftaran</a>
         </div>
     </section>
     <div class="slider">
         <div class="logos-slide">
-            <img src="gambar/gambarrun/1.png" alt="">
+            <img src="gambar/gambarrun/1.svg" alt="">
     
-            <img src="gambar/gambarrun/2.png" alt="" srcset="">
+            <img src="gambar/gambarrun/2.svg" alt="" srcset="">
     
-            <img src="gambar/gambarrun/3.png" alt="">
+            <img src="gambar/gambarrun/3.svg" alt="">
     
-            <img src="gambar/gambarrun/4.png" alt="">
+            <img src="gambar/gambarrun/4.svg" alt="">
     
-            <img src="gambar/gambarrun/5.png" alt="">
-            <img src="gambar/gambarrun/6.png" alt="">
+            <img src="gambar/gambarrun/5.svg" alt="">
+            <img src="gambar/gambarrun/6.svg" alt="">
         </div>
         <div class="logos-slide">
-            <img src="gambar/gambarrun/1.png" alt="">
+            <img src="gambar/gambarrun/1.svg" alt="">
     
-            <img src="gambar/gambarrun/2.png" alt="" srcset="">
+            <img src="gambar/gambarrun/2.svg" alt="" srcset="">
     
-            <img src="gambar/gambarrun/3.png" alt="">
+            <img src="gambar/gambarrun/3.svg" alt="">
     
-            <img src="gambar/gambarrun/4.png" alt="">
+            <img src="gambar/gambarrun/4.svg" alt="">
     
-            <img src="gambar/gambarrun/5.png" alt="">
+            <img src="gambar/gambarrun/5.svg" alt="">
     
-            <img src="gambar/gambarrun/6.png" alt="">
+            <img src="gambar/gambarrun/6.svg" alt="">
         </div>     
         <div class="wrap">
         
         </div>
     </div> 
+
     <!--    flip down dll--------------------------------------------------------------------- -->
-    <div id="timeline"></div>
-     <h1>Our Process</h1>
-    <br />
+    <div id="timeline" style="text-align: center; width: 100%;">
+           <h1 data-aos="fade-down" style="transition-delay: 0.5s; width: fit-content;">Our Process</h1>
+
+    </div>
+    
     <div class="process-wrapper">
       <div id="progress-bar-container">
         <ul>
-          <li class="step step01 active"><div class="step-inner">PENDAFTARAN</div></li>
-          <li class="step step02"><div class="step-inner">REGISTRASI ULANG</div></li>
-          <li class="step step03"><div class="step-inner">PENYISIHAN</div></li>
-          <li class="step step04"><div class="step-inner">SEMI FINAL & FINAL</div></li>
+          <li class="step step01 active" data-aos="zoom-in-down" style="transition-delay: 0.4s;"><div class="step-inner">PENDAFTARAN</div></li>
+          <li class="step step02" data-aos="zoom-in-down" style="transition-delay: 0.4s;" ><div class="step-inner" >REGISTRASI ULANG</div></li>
+          <li class="step step03"  data-aos="zoom-in-down"style="transition-delay: 0.4s;"><div class="step-inner">PENYISIHAN</div></li>
+          <li class="step step04"  data-aos="zoom-in-down"style="transition-delay: 0.4s;"><div class="step-inner">SEMI FINAL & FINAL</div></li>
         </ul>
 
-        <div id="line">
+        <div id="line" data-aos="zoom-in" style="transition-delay: 0.5s;">
           <div id="line-progress"></div>
         </div>
       </div>
 
-      <div id="progress-content-section">
+      <div id="progress-content-section" style="transition-delay: 0.5s"data-aos="zoom-in" >
         <div class="section-content discovery active">
           <h2>HOME SECTION</h2>
           <p>
@@ -175,52 +211,58 @@
             venenatis at ex a, lacinia suscipit orci.
           </p>
         </div>
+
       </div>
+        <img class="section-obj" data-aos="fade-left" src="gambar/asset/wqas.svg" style="right: -2%;" alt="">
+        <img class="section-obj" data-aos="fade-right" src="gambar/asset/wqas (2).svg" alt="" style="left: -2%;">
+
+
     </div>
-    <div class="timer">
+    <div class="tambahan2">
+   <div class="timer" data-aos="fade-down">
         <h1>Flipdown Timer</h1>
     </div>
-    <div class="wrapingg">
-      <div id="flipdown" class="flipdown"></div>
-
     </div>
-    <!-- flip down dlll -->
+ 
+    <div class="tambahan" style="position: relative;">
+      <div class="wrapingg" data-aos="flip-down" style="overflow: hidden !important; width: 97%; ;" data-aos-offset="150">
+          <div id="flipdown" class="flipdown"></div>
+      </div>
+    </div>
+
+    <!-- card div s-->
   
-    <div class="main-card" id="bidang">
-        <a href="laman1.html" class="card" >
+    <div class="main-card" id="bidang" style="position: relative; overflow: hidden;" >
+      <img src="gambar/asset/awankwalik.svg" class="main-card-obj2" alt=""  data-aos="fade-left">
+        <a href="laman1.html" class="card card-coba" data-aos="flip-left"  data-aos-offset="150">
 
-            <h2>Card Title</h2>
-            <img src="gambar/card/NPC Mascot.svg" alt="" style="width: 80%;">
+            <img src="gambar/asset/wesa1.png" alt="" >
         </a>
-        <div class="card pertama">
-            <h2>Card Title</h2>
-            <img src="gambar/card/NLC Mascot2.svg" alt="" >
+        <div class="card tengah" data-aos="flip-up"  data-aos-offset="150">
+            <img src="gambar/asset/wesa2.png" alt="" >
         </div>
-        <div class="card" >
-            <h2>Card Title</h2>
-            <img src="gambar/card/BST Mascot.svg" alt="" style="bottom: -5%;">
+        <div class="card" data-aos="flip-right"  data-aos-offset="150">
+            <img src="gambar/asset/wesa3.png" alt="" >
         </div>
+        <img class="main-card-obj" data-aos="fade-up-right" src="gambar/asset/wqsa.svg"  alt="">
     </div>
-    <div style="text-align: center;" class="tulisan">
-      <p>Main Sponsor</p>
+    <div style="text-align: center; padding-top: 5vh; padding-bottom: 5vh;" class="tulisan">
+      <h1 data-aos="zoom-in" data-aos-offset="150" style="    font-size: clamp(30px,4vw,40px); ">Main Sponsor</h1>
     </div>
     <div class="sponsor">
       
-      <img src="gambar/spon.jpg" alt="">
+      <img src="gambar/spon.jpg" alt=""  data-aos="fade-up" style="transition:0.6s ;" data-aos-offset="150">
 
-       <img src="gambar/spon.jpg" alt="">
-          <img src="gambar/spon.jpg" alt="">
-                <img src="gambar/spon.jpg" alt="">
-          <img src="gambar/spon.jpg" alt="">
-
-
+       <img src="gambar/spon.jpg" alt=""data-aos="fade-up" style="transition:0.6s ;" data-aos-offset="150">
+          <img src="gambar/spon.jpg" alt=""data-aos="fade-up" style="transition:0.6s ;" data-aos-offset="150">
+                <img src="gambar/spon.jpg" alt=""data-aos="fade-up" style="transition:0.6s ;" data-aos-offset="150">
+          <img src="gambar/spon.jpg" alt=""data-aos="fade-up" style="transition:0.6s ;" data-aos-offset="150">
 
     </div>
-
+<!-- footerrs -->
         <section id="footer">
             <div class="main__footer">
               <div class="logo__footer">
-                <h1>Logo</h1>
                 <div class="contact__footer">
                   <h1>Contact Us</h1>
                   <li>
@@ -243,10 +285,13 @@
               <h1>Social Media</h1>
               <div class="footer-social">
                 <div class="footer__social-box">
-                  <a href="#" class="fa fa-instagram"></a>
-                  <a href="#" class="fa fa-linkedin"></a>
+                  <a href="#" class="nav__social-icon"><ion-icon name="logo-facebook"></ion-icon></a>
+                        <a href="#" class="nav__social-icon"><ion-icon name="logo-youtube"></ion-icon></a>
+                        <a href="#" class="nav__social-icon"><ion-icon name="logo-instagram"></ion-icon></a>
+
+                  <!-- <a href="#" class="fa fa-linkedin"></a>
                   <a href="#" class="fa fa-facebook"></a>
-                  <a href="#" class="fa fa-youtube-play"></a>
+                  <a href="#" class="fa fa-youtube-play"></a> -->
                 </div>
               </div>
             </div>
@@ -343,28 +388,59 @@
   }
 </script>
 <script>
-let text = document.getElementById('text');
-let leaf = document.getElementById('leaf');
-let hill1 = document.getElementById('hill1');
-let hill4 = document.getElementById('hill4');
-let hill5 = document.getElementById('hill5');
+let  kiri1= document.getElementById('kiri-1');
+let kiri2 = document.getElementById('kiri-2');
+let kiri3 = document.getElementById('kiri-3');
+let kiri4 = document.getElementById('kiri-4');
+let  kanan1= document.getElementById('kanan-1');
+let kanan2 = document.getElementById('kanan-2');
+let kanan3 = document.getElementById('kanan-3');
+let kanan4 = document.getElementById('kanan-4');
+let kanan5= document.getElementById('kanan-5');
+let atas = document.getElementById('atas');
+let bawah = document.getElementById('bawah');
+let tulisan = document.getElementById('tulisan');
+let maskot = document.getElementById('maskot');
+
+
+
+
+
 
 window.addEventListener('scroll', () => {
 
     let value = window.scrollY;
 
-    text.style.marginTop = value * 2.5 + 'px';
-    leaf.style.marginLeft = value * 2.5 + 'px';
-    hill1.style.marginTop = value * 1 + 'px';
-    hill4.style.marginTop = value * 0.3 + 'px';
-    hill2.style.marginLeft = value * -1.5 + 'px';
-    // hill3.style.marginLeft = value * 1.5 + 'px';
-    hill5.style.marginTop = value * 1.5 + 'px';
+    // kiri1.style.marginLeft = value *  + 'px';
+    kiri2.style.marginLeft = value * -0.1+ 'px';
+    kiri3.style.marginLeft = value * -0.5 + 'px';
+    kiri4.style.marginLeft = value * -1+ 'px';
+    kanan2.style.marginRight = value * -0.1+ 'px';
+    kanan3.style.marginRight = value * -0.5 + 'px';
+    kanan4.style.marginRight = value * -1+ 'px';
+    kanan5.style.marginRight = value * -1.5+ 'px';
+
+     atas.style.marginTop = value * -1 + 'px';
+      bawah.style.marginBottom = value * -2.5 + 'px';
+    tulisan.style.marginTop= value * -1 + 'px';
+
+    maskot.style.marginTop= value * 1 + 'px';
+
+    // kanan1.style.marginLeft = value * -1.5 + 'px';
+    // // hill3.style.marginLeft = value * 1.5 + 'px';
+    // kanan2.style.marginTop = value * 1.5 + 'px';
+    //   kanan3.style.marginTop = value * 1.5 + 'px';
+    // kanan4.style.marginTop = value * 1.5 + 'px';
+
 
 
 
 })
 </script>
+  <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
 </body>
 
 </html>
