@@ -46,7 +46,7 @@ main{
     display: flex;
     position: fixed;
     justify-content: center;
-    background-image: url(output-onlinepngtools.png);
+    background-image: url(../output-onlinepngtools.png);
 background-size: cover;
 background-repeat: no-repeatss;
     width: 100%;

@@ -10,7 +10,7 @@
 }
 @media (max-width: 1170px) {
 
-   #kanan-5,#kanan-4,#kiri-4,#bawah{
+   #kanan-5,#kiri-5,#kanan-4,#kiri-4,#bawah{
     display: none;
    }
    #tulisan{
