@@ -1,0 +1,400 @@
+@font-face {
+  font-family: "ARCO";
+  src: url("../font/ARCO.woff") format("woff");
+}
+@font-face {
+  font-family: "SuperBoy";
+  src: url("../font/Super-Boys.woff") format("woff");
+}
+@font-face {
+  font-family: "LouisBold";
+  src: url("../font/Louis-George-Cafe-Bold.woff") format("woff");
+}
+.Paralax {
+  padding-top: -2%;
+  /* overflow: hidden; */
+  height: 100vh;
+  flex-wrap: nowrap;
+  background-color: #edc554;
+}
+.star {
+  position: absolute;
+  top: 5vh;
+  right: 0vw;
+  width: 30vw;
+}
+.cloud-top {
+  position: absolute;
+  right: 0vw;
+  top: 5vh;
+  width: 55;
+}
+.headline {
+  position: absolute;
+  left: 2vw;
+  top: 5vh;
+  width: 40vw;
+}
+.button-1 {
+  position: absolute;
+  width: 15vw;
+  top: 42vh;
+  left: 13vw;
+}
+.button-1:hover {
+  cursor: pointer;
+  content: url("svg/landing/Button-2.svg");
+}
+.flying {
+  position: absolute;
+  width: 47vw;
+  right: 50vh;
+  bottom: 3vh;
+  animation: naikTurun 2s linear infinite;
+}
+.title-cloud-bottom {
+  position: absolute;
+  right: 5vw;
+  bottom: 5vh;
+  width: 20vw;
+}
+.cloud-bottom {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  /* width: 80%; */
+}
+.cloud-top-phone {
+  display: none;
+}
+.star-phone {
+  display: none;
+}
+.mascot {
+  display: none;
+}
+.cloud-bottom-daftar-phone {
+  display: none;
+}
+
+@keyframes naikTurun {
+  0% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-20px); /* Atur seberapa jauh naik */
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
+
+.pendaftaran-full {
+  height: 100vh;
+  position: relative;
+  background-color: #f6aa3a;
+}
+.pendaftaran {
+  padding-top: 5vh;
+  position: relative;
+}
+.pendaftaran a {
+  display: flex;
+  justify-content: center;
+  font-size: 5vh;
+  padding-bottom: 3%;
+  font-family: "ARCO";
+  color: #f0e1c1 !important;
+}
+.star-daftar {
+  position: absolute;
+  top: 0;
+}
+.flying-daftar {
+  position: absolute;
+  bottom: 10vh;
+  width: 45vw;
+  right: 7vw;
+  animation: naikTurun 2s linear infinite;
+}
+.text-daftar {
+  position: absolute;
+  top: 23vh;
+  left: 10vw;
+  width: 35vw;
+}
+.button-daftar {
+  position: absolute;
+  top: 50vh;
+  width: 15vw;
+  left: 25vw;
+}
+.button-guidebook {
+  position: absolute;
+  top: 50vh;
+  left: 10vw;
+  width: 15vw;
+}
+.button-guidebook:hover {
+  cursor: pointer;
+  content: url("svg/daftar/Button-Science-1.svg");
+}
+.button-daftar:hover {
+  cursor: pointer;
+  content: url("svg/daftar/Button-Science-3.svg");
+}
+.cloud-bottom-daftar {
+  position: absolute;
+  bottom: 0;
+}
+.background-daftar {
+  display: none;
+}
+/* footer */
+@import url("https://fonts.googleapis.footer__menu/css2?family=Montserrat:wght@400;500;600;700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* ! Footer */
+
+.main__footer {
+  padding: 70px 0;
+  display: flex;
+  justify-content: space-evenly;
+  background-color: #2d313f;
+}
+
+.main__footer ul {
+  list-style: none;
+}
+
+.main__footer h1 {
+  font-size: 22px;
+  line-height: 117%;
+  color: #ffffff;
+  margin-bottom: 10px;
+  font-weight: 500;
+}
+
+.main__footer h2 {
+  color: #ffffff;
+  font-weight: 500;
+}
+
+.main__footer ul li a {
+  color: #ffffffcc;
+  text-decoration: none;
+}
+.main__footer ul li a:hover {
+  text-decoration: underline;
+}
+
+footer {
+  background-color: #2d313f;
+  border-top: 1px solid #585f7c;
+  font-size: 17px;
+  padding: 15px 5px;
+  color: #ffffff;
+  text-align: center;
+}
+
+footer a {
+  text-decoration: none;
+  color: #ffffff;
+}
+footer a:hover {
+  text-decoration: underline;
+}
+.contact__footer {
+  margin-top: 20px;
+}
+
+.contact__footer li {
+  display: flex;
+  justify-content: center;
+  list-style: none;
+  margin: 10px 0;
+}
+
+.contact__footer li a {
+  text-decoration: none;
+  color: #f1f1f1;
+}
+.contact__footer li a:hover {
+  text-decoration: underline;
+}
+.contact__footer .fa {
+  color: #f1f1f1;
+  margin-right: 10px;
+}
+
+.footer-social {
+  padding: 20px 0;
+}
+.footer__social-box {
+  display: flex;
+  justify-content: center;
+}
+.footer-social .footer__social-box a {
+  padding: 0 10px;
+  text-decoration: none;
+  color: #ffffff;
+  font-size: 22px;
+}
+
+.footer__menu ul li {
+  padding: 5px 0;
+  display: flex;
+  justify-content: center;
+}
+
+/* Tablet  */
+@media (max-width: 1024px) {
+  .Paralax {
+    height: 100vh;
+    position: relative;
+  }
+  .star {
+    position: absolute;
+    width: 60vw;
+    top: 3vh;
+  }
+  .headline {
+    position: absolute;
+    width: 90vw;
+    top: 20vh;
+  }
+  .button-1 {
+    position: absolute;
+    width: 30vw;
+    top: 48vh;
+    left: 33vw;
+  }
+  .flying {
+    position: absolute;
+    width: 72vw;
+    right: 12vh;
+    bottom: 10vh;
+  }
+  .title-cloud-bottom {
+    position: absolute;
+    right: 5vw;
+    bottom: 5vh;
+    width: 30vw;
+  }
+
+  /* Pendaftaran */
+  .flying-daftar {
+    position: absolute;
+    bottom: 45vh;
+    width: 80vw;
+    right: 7vw;
+  }
+  .text-daftar {
+    position: absolute;
+    top: 50vh;
+    left: 16vw;
+    width: 70vw;
+  }
+  .button-guidebook {
+    position: absolute;
+    width: 25vw;
+    top: 67vh;
+    left: 50vw;
+  }
+  .button-daftar {
+    position: absolute;
+    width: 25vw;
+    top: 67vh;
+    left: 25vw;
+  }
+}
+
+/* Smartphone/Mobile */
+@media (max-width: 500px) {
+  .Paralax {
+    position: relative;
+    height: 100vh;
+  }
+  .star {
+    display: none;
+  }
+  .cloud-top-phone {
+    display: block;
+    position: absolute;
+    top: 0vh;
+  }
+  .star-phone {
+    position: absolute;
+    display: block;
+    top: 40vh;
+  }
+  .headline {
+    position: absolute;
+    width: 100vw;
+    top: 10vh;
+  }
+  .button-1 {
+    position: absolute;
+    left: 35vw;
+    top: 40vh;
+  }
+  .flying {
+    position: absolute;
+    width: 90vw;
+    top: 50vh;
+    left: 5vw;
+  }
+
+  /* Pendaftaran */
+  .pendaftaran-full {
+    background-color: #edc554;
+  }
+  .background-daftar {
+    display: block;
+    position: absolute;
+    bottom: 0vh;
+  }
+  .mascot {
+    display: block;
+    position: absolute;
+    width: 35vw;
+    left: 35vw;
+    top: 3vh;
+  }
+  .pendaftaran a {
+    position: absolute;
+    top: 20vh;
+    left: 3.5vh;
+  }
+  .flying-daftar {
+    position: absolute;
+    width: 75vw;
+    top: 40vh;
+  }
+  .text-daftar {
+    position: absolute;
+    top: 65vh;
+  }
+  .button-daftar {
+    position: absolute;
+    top: 80vh;
+  }
+  .button-guidebook {
+    position: absolute;
+    top: 80vh;
+  }
+  .cloud-bottom-daftar {
+    position: absolute;
+    top: 34vh;
+  }
+  .cloud-bottom-daftar-phone {
+    display: block;
+    position: absolute;
+    bottom: 0vh;
+  }
+}
